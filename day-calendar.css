@@ -1,0 +1,69 @@
+p {
+    font-family: sans-serif;
+}
+
+.main-title {
+    
+}
+
+.title {
+    color: #101010;
+    font-weight: lighter;
+}
+
+#day-calendar, #hour-clock, #minute-clock, #second-clock {
+    margin-left: 60px;
+    margin-top: 50px;
+    height: 100px;
+    width: 430px;
+    background-color: #aaf;
+    margin-bottom: 100px;
+}
+
+.dayStart, .hourStart, .minuteStart, .secondStart {
+    position: relative;
+    top: -20px;
+}
+
+.dayEnd, .hourEnd, .minuteEnd, .secondEnd  {
+    position: relative;
+    top: -52px;
+}
+
+.dayEnd {
+    left: 390px;
+}
+
+.hourEnd, .minuteEnd {
+    left: 412px;
+}
+
+.secondEnd {
+    left: 422px;
+}
+
+#day-calendar-slider, #hour-clock-slider, #minute-clock-slider {
+    margin-top: -68px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    opacity: 0.5;
+}
+
+#second-clock-slider {
+    margin-top: -68px;
+    height: 100px;
+    width: 0;
+    background-color: red;
+    opacity: 0.5;
+}
+
+#year-calendar {
+    position: relative;
+    bottom: 50px;
+}
+
+#time-slider {
+    position: relative;
+   
+}

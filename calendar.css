@@ -1,0 +1,43 @@
+html {
+    font-family: sans-serif;
+}
+
+#calendar {
+	position: absolute;
+    white-space: nowrap;
+}
+
+.day {
+    margin-top: 100px;
+    display: inline-block;
+    white-space: nowrap;
+    width: 86px;
+    height: 100px;
+    background-color: #aaf;
+    border: 1px solid gray;
+}
+
+.dayNums {
+    position: relative;
+    color: white;
+    top: -8px;
+    left: 8px;
+}
+
+.day-label {
+    position: relative;
+    top: -5px;
+    left: 5px;
+    color: white;
+    font-family: Arial;
+}
+
+#time-slider {
+	position: absolute;
+	float: right;
+	left: 5601px;
+	top: 50px;
+	height: 102px;
+    background-color: red;
+    opacity: 0.5;
+}
